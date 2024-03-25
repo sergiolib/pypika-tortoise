@@ -1,8 +1,8 @@
 from typing import Any, Union
 
-from pypika.enums import Dialects
-from pypika.queries import Query, QueryBuilder
-from pypika.utils import QueryException, builder
+from pypika_tortoise.enums import Dialects
+from pypika_tortoise.queries import Query, QueryBuilder
+from pypika_tortoise.utils import QueryException, builder
 
 
 class MSSQLQuery(Query):

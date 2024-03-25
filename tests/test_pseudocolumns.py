@@ -1,8 +1,9 @@
 import unittest
 
-from pypika import Query, Table
-from pypika.pseudocolumns import ColumnValue, ObjectID, ObjectValue, RowID, RowNum, SysDate
-from pypika.terms import PseudoColumn
+from pypika_tortoise import Query, Table
+from pypika_tortoise.pseudocolumns import (ColumnValue, ObjectID, ObjectValue,
+                                           RowID, RowNum, SysDate)
+from pypika_tortoise.terms import PseudoColumn
 
 
 class PseudoColumnsTest(unittest.TestCase):

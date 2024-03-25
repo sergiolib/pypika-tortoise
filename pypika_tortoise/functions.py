@@ -1,9 +1,9 @@
 """
 Package for SQL functions wrappers
 """
-from pypika.enums import SqlTypes
-from pypika.terms import AggregateFunction, Function, Star
-from pypika.utils import builder
+from pypika_tortoise.enums import SqlTypes
+from pypika_tortoise.terms import AggregateFunction, Function, Star
+from pypika_tortoise.utils import builder
 
 
 class DistinctOptionFunction(AggregateFunction):

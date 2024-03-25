@@ -2,10 +2,10 @@ import json
 from datetime import time
 from typing import Any, Union
 
-from pypika.enums import Dialects
-from pypika.queries import Query, QueryBuilder, Table
-from pypika.terms import ValueWrapper
-from pypika.utils import builder, format_alias_sql, format_quotes
+from pypika_tortoise.enums import Dialects
+from pypika_tortoise.queries import Query, QueryBuilder, Table
+from pypika_tortoise.terms import ValueWrapper
+from pypika_tortoise.utils import builder, format_alias_sql, format_quotes
 
 
 class MySQLQuery(Query):

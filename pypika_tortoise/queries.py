@@ -4,8 +4,8 @@ from typing import Any, List, Optional, Sequence
 from typing import Tuple as TypedTuple
 from typing import Type, Union
 
-from pypika.enums import Dialects, JoinType, SetOperation
-from pypika.terms import (
+from pypika_tortoise.enums import Dialects, JoinType, SetOperation
+from pypika_tortoise.terms import (
     ArithmeticExpression,
     Criterion,
     EmptyCriterion,
@@ -20,7 +20,7 @@ from pypika.terms import (
     Tuple,
     ValueWrapper,
 )
-from pypika.utils import (
+from pypika_tortoise.utils import (
     JoinException,
     QueryException,
     RollupException,

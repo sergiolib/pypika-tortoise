@@ -1,15 +1,8 @@
 import unittest
 
-from pypika import (
-    FormatParameter,
-    NamedParameter,
-    NumericParameter,
-    Parameter,
-    PyformatParameter,
-    QmarkParameter,
-    Query,
-    Tables,
-)
+from pypika_tortoise import (FormatParameter, NamedParameter, NumericParameter,
+                             Parameter, PyformatParameter, QmarkParameter,
+                             Query, Tables)
 
 
 class ParametrizedTests(unittest.TestCase):

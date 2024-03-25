@@ -18,7 +18,7 @@ from typing import (
     Union,
 )
 
-from pypika.enums import (
+from pypika_tortoise.enums import (
     Arithmetic,
     Boolean,
     Comparator,
@@ -28,7 +28,7 @@ from pypika.enums import (
     Matching,
     Order,
 )
-from pypika.utils import (
+from pypika_tortoise.utils import (
     CaseException,
     FunctionException,
     builder,
@@ -39,7 +39,7 @@ from pypika.utils import (
 )
 
 if TYPE_CHECKING:
-    from pypika.queries import QueryBuilder, Selectable, Table
+    from pypika_tortoise.queries import QueryBuilder, Selectable, Table
 
 NodeT = TypeVar("NodeT", bound="Node")
 
@@ -66,7 +66,7 @@ class Term(Node):
 
     @property
     def tables_(self) -> Set["Table"]:
-        from pypika import Table
+        from pypika_tortoise import Table
 
         return set(self.find_(Table))
 

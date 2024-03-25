@@ -1,8 +1,8 @@
 from typing import Any
 
-from pypika.enums import Dialects
-from pypika.queries import Query, QueryBuilder
-from pypika.terms import ValueWrapper
+from pypika_tortoise.enums import Dialects
+from pypika_tortoise.queries import Query, QueryBuilder
+from pypika_tortoise.terms import ValueWrapper
 
 
 class SQLLiteValueWrapper(ValueWrapper):

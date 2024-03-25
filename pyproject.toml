@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pypika-tortoise"
 version = "0.1.6"
-description = "Forked from pypika and streamline just for tortoise-orm"
+description = "Forked from pypika_tortoise and streamline just for tortoise-orm"
 authors = ["long2ice <long2ice@gmail.com>"]
 license = "Apache-2.0"
 readme = "README.md"
@@ -10,7 +10,7 @@ repository = "https://github.com/tortoise/pypika-tortoise.git"
 documentation = "https://github.com/tortoise/pypika-tortoise"
 keywords = ["postgresql", "Tortoise-ORM", "mysql", "sqlite", "sql"]
 packages = [
-    { include = "pypika" }
+    { include = "pypika_tortoise" }
 ]
 include = ["CHANGELOG.md", "LICENSE", "README.md"]
 
@@ -43,5 +43,5 @@ ignore_missing_imports = true
 line-length = 150
 
 [tool.ruff.per-file-ignores]
-'pypika/__init__.py' = ['F401']
-'pypika/dialects/__init__.py' = ['F401']
+'pypika_tortoise/__init__.py' = ['F401']
+'pypika_tortoise/dialects/__init__.py' = ['F401']
