@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pypika-tortoise"
-version = "0.1.6-1"
+version = "0.1.6-3"
 description = "Forked from pypika_tortoise and streamline just for tortoise-orm"
 authors = ["long2ice <long2ice@gmail.com>"]
 license = "Apache-2.0"
@@ -26,6 +26,10 @@ bandit = "*"
 pytest-xdist = "*"
 pytest-cov = "*"
 twine = "*"
+
+[[tool.poetry.source]]
+name = "pypi-public"
+url = "https://pypi.org/simple/"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
